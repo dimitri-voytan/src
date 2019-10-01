@@ -22,7 +22,7 @@ h0 = par.float('h0',0.0)  # first offset
 
 # get reflectors
 nr = par.int('nr',1) # number of reflectors
-r = par.ints('r',nr)
+r = par.int('r',nr)
 
 type = par.string('type','hyperbolic')
 # traveltime computation type
